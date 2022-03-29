@@ -14,7 +14,7 @@ const inches = (c:number)=>{
     return c/2.54
 }
 
-let centimetras:number
+let centimetras:number;
 
 const skaiciuoti = ()=>{
 
@@ -23,6 +23,7 @@ centimetras=+inputCM.value;
 if(atsakymas!=null){
 atsakymas.innerHTML=`${centimetras} centimetrai yra ${inches(centimetras)} coliai`
 }
+
 }
 
 if(btnSkaiciuoti!=null){
