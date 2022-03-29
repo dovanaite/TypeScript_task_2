@@ -1,4 +1,4 @@
-# TypeScript_task_2
+# Cm to inches
 Užduotis
 
 Pasinaudodami Typescript ir HTML sukurkite web aplikaciją kuri būtų skirta konvertuoti iš centimetrų į colius. 
