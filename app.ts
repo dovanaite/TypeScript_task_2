@@ -21,7 +21,7 @@ const skaiciuoti = ()=>{
 centimetras=+inputCM.value;
 
 if(atsakymas!=null){
-atsakymas.innerHTML=`${centimetras} centimetrai yra ${inches(centimetras)} coliai`
+atsakymas.innerHTML=`${centimetras} cm yra ${inches(centimetras)} coliai`
 }
 
 }

@@ -14,7 +14,7 @@ var centimetras;
 var skaiciuoti = function () {
     centimetras = +inputCM.value;
     if (atsakymas != null) {
-        atsakymas.innerHTML = "".concat(centimetras, " centimetrai yra ").concat(inches(centimetras), " coliai");
+        atsakymas.innerHTML = "".concat(centimetras, " cm yra ").concat(inches(centimetras), " coliai");
     }
 };
 if (btnSkaiciuoti != null) {
